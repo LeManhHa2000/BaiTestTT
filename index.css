@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 150px;
+    list-style: none;
+    background: #191718;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .sidebar_item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 1px solid #5C5C5C;
+    padding: 12px 20px;
+    color: #AAAAAA;
+}
+
+.sidebar .sidebar_item:hover {
+    background-color: #5C5C5C;
+}
+
+/* app_content */
+
+.app_content {
+    flex: 1;
+    margin-left: 150px;
+}
+
+.app_background {
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.group1 {
+    width: 1100px;
+    height: 210px;
+    background: #EFEFEF;
+    margin: 0 auto;
+}
+
+.group1 p {
+    text-align: center;
+}
+
+.group1 p:first-child {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 38px;
+}
+
+.group1 p:last-child {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 18px auto 0;
+    width: 800px;
+}
+
+.group_all {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group_item {
+    margin-top: 40px;
+    width: 30%;
+}
+
+.group_item .group_item_title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.group_item_content {
+    display: flex;
+}
+
+.group_item_content img{
+    width: 121px;
+    height: 121px;
+}
+
+.group_item_content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #DEDEDE;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+    margin: 30px 0 30px 130px;
+}
